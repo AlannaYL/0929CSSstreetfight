@@ -6,14 +6,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>切版練習</title>
+    <!-- google font -->
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap"
         rel="stylesheet">
-    <!-- google font -->
-    <link rel="stylesheet" href="./CSS/reset.css">
     <!-- CSS reset -->
     <link rel="stylesheet" href="./CSS/styl.css">
-    <!-- 自己的外部樣式 -->
+    <!--animate css -->
     <link rel="stylesheet" href="./CSS/animate.css">
+    <!-- font awesom -->
+    <link rel="stylesheet" href="./CSS/all.css">
+    <!-- 自己的外部樣式 -->
+    <link rel="stylesheet" href="./CSS/reset.css">
+
 </head>
 
 <body>
@@ -75,7 +79,7 @@
                     <div class="role_info h-100">
                         <input id="r01" type="radio" name="character" checked>
                         <!-- Ryu -->
-                        <div>
+                        <div class="animate__animated animate__fadeInLeft">
                             <div class="role"><img src="./images/allstar/big/r01_b.png"></div>
                             <div class="info">
                                 <h1>隆 - RYU</h1>
@@ -95,7 +99,7 @@
                         </div>
                         <input id="r02" type="radio" name="character">
                         <!-- KEN -->
-                        <div>
+                        <div class="animate__animated animate__fadeInLeft">
                             <div class="role"><img src="./images/allstar/big/r02_b.png"></div>
                             <div class="info">
                                 <h1>肯 - KEN</h1>
@@ -113,7 +117,7 @@
                         </div>
                         <input id="r03" type="radio" name="character">
                         <!-- CHUN LI -->
-                        <div>
+                        <div class="animate__animated animate__zoomInDown">
                             <div class="role"><img src="./images/allstar/big/r03_b.png"></div>
                             <div class="info">
                                 <h1>春麗 - CHUN LI</h1>
@@ -134,7 +138,7 @@
                         </div>
                         <input id="r04" type="radio" name="character">
                         <!-- GUILE -->
-                        <div>
+                        <div class="animate__animated animate__zoomInDown">
                             <div class="role"><img src="./images/allstar/big/r04_b.png"></div>
                             <div class="info">
                                 <h1>凱爾 - GUILE</h1>
@@ -200,7 +204,59 @@
         </div>
     </div>
     <!--footer 關於我們 -------------------------------->
-
+    <div id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="card">
+                        <h1><i class="fas fa-circle-info"></i>探索更多</h1>
+                        <ul>
+                            <li>熱門活動</li>
+                            <li>最新優惠</li>
+                            <li>遊戲資訊</li>
+                            <li>密技公開</li>
+                            <li>電競比賽</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <h1><i class="fas fa-id-badge"></i>關於我們</h1>
+                        <ul>
+                            <li>關於街霸</li>
+                            <li>最新消息</li>
+                            <li>得獎獎項</li>
+                            <li>徵才訊息</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <h1><i class="far fa-newspaper"></i>支援服務</h1>
+                        <ul>
+                            <li>聯絡我們</li>
+                            <li>線上客服</li>
+                            <li>客服信箱</li>
+                            <li>品保服務</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <h1><i class="far fa-newspaper"></i>支援服務</h1>
+                        <input type="text">
+                        <h3>社群頻道</h3>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-facebook"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-youtube"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- copyright -->
+        <div class="copyright">泰山職訓切版教學 &copy; KaiFu</div>
+    </div>
 </body>
 
 </html>
