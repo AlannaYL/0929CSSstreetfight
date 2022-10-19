@@ -87,11 +87,12 @@ body {
     right: -10px;
 }
 
+
 #header .logo {
     width: 15%;
     position: absolute;
     left: 50%;
-    transform: translateX(-50%);
+    transform: translate(-50%);
 }
 
 /* 讓圖片符合父元素 .logo的尺寸，設定寬度 100% */
